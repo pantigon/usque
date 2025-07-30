@@ -16,10 +16,10 @@ FROM alpine:latest
 
 WORKDIR /app
 
-ENV SOCKS5_ADDR 0.0.0.0
-ENV SOCKS5_PORT 1080
-ENV SOCK5_USER admin
-ENV SOCK5_PASS admin
+ENV SOCKS5_ADDR=0.0.0.0
+ENV SOCKS5_PORT=1080
+ENV SOCK5_USER=admin
+ENV SOCK5_PASS=admin
 
 COPY --from=builder /app/usque /bin/usque
 
