@@ -23,5 +23,4 @@ ENV SOCK5_PASS=admin
 
 COPY --from=builder /app/usque /bin/usque
 
-ENTRYPOINT ["/bin/usque"]
-CMD ["socks", "-b", "$SOCKS5_ADDR", "-p", "$SOCKS5_PORT", "-u", "$SOCK5_USER", "-w", "$SOCK5_PASS"]
+CMD /bin/usque socks -b $SOCKS5_ADDR -p $SOCKS5_PORT -u $SOCK5_USER -w $SOCK5_PASS
