@@ -11,7 +11,7 @@ import (
 	"time"
 
 	connectip "github.com/Diniboy1123/connect-ip-go"
-	"github.com/Diniboy1123/usque/internal"
+	"github.com/pantigon/usque/internal"
 	"github.com/songgao/water"
 	"golang.zx2c4.com/wireguard/tun"
 )
