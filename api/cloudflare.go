@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Diniboy1123/usque/internal"
-	"github.com/Diniboy1123/usque/models"
+	"github.com/pantigon/usque/internal"
+	"github.com/pantigon/usque/models"
 )
 
 // Register creates a new user account by registering a WireGuard public key and generating a random Android-like device identifier.
