@@ -1,4 +1,4 @@
-module github.com/Diniboy1123/usque
+module github.com/pantigon/usque
 
 go 1.25.5
 
