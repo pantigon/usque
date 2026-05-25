@@ -5,9 +5,9 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/Diniboy1123/usque/api"
-	"github.com/Diniboy1123/usque/config"
-	"github.com/Diniboy1123/usque/internal"
+	"github.com/pantigon/usque/api"
+	"github.com/pantigon/usque/config"
+	"github.com/pantigon/usque/internal"
 	"golang.zx2c4.com/wireguard/tun"
 )
 
