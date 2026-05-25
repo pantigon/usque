@@ -7,9 +7,9 @@ import (
 )
 
 var (
-	version = "dev"
-	commit  = "none"
-	date    = "unknown"
+	version = "v3.0.0"
+	commit  = "By Pantigon"
+	date    = "2026-05-25T15:11:59Z"
 )
 
 var versionCmd = &cobra.Command{
